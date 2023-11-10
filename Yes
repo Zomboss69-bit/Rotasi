@@ -9,7 +9,7 @@ bot.collect_range=4
 bot.auto_collect = false
 function GonWebhook(Shinuqi)
     local script = [[
-    $webHookUrl = "Nextar26#0426]]..WebhookUrl..[["
+    $webHookUrl = "]]..WebhookUrl..[["
     $thumbnailObject = [PSCustomObject]@{
     url = "https://cdn.discordapp.com/emojis/1016295109970645022.gif?size=80&quality=lossless"
     }
@@ -19,7 +19,7 @@ function GonWebhook(Shinuqi)
   
     $footer = [PSCustomObject]@{
         icon_url = "https://cdn.discordapp.com/emojis/978628955907170314.gif?size=96&quality=lossless"
-        text = "]].." | Date : "..(os.date"%d/%m/%y":upper().." Hour : ")..os.date("%I")..":"..os.date("%M").." "..os.date("%p"):upper()..[["
+        text = "]].."Nextar26#0426 | Date : "..(os.date"%d/%m/%y":upper().." Hour : ")..os.date("%I")..":"..os.date("%M").." "..os.date("%p"):upper()..[["
     }
   
     $embedObject = [PSCustomObject]@{
