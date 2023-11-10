@@ -15,7 +15,7 @@ function GonWebhook(Shinuqi)
     }
     $color = Get-Random -Minimum 0 -Maximum 16777215
     $title = 'Nextar26#0426 - Rotation'
-    $description = "**]]..Nextar26#0426..[[**"
+    $description = "**]]..Shinuqi..[[**"
   
     $footer = [PSCustomObject]@{
         icon_url = "https://cdn.discordapp.com/emojis/978628955907170314.gif?size=96&quality=lossless"
